@@ -1,0 +1,11 @@
+#menu-bar {
+  margin-right: 250px;
+}
+#menu-bar a {
+  margin-left: 36px;
+  padding: 10px;
+  color: grey;
+}
+#menu-bar a:hover {
+  border-bottom: 3px solid gray;
+}
