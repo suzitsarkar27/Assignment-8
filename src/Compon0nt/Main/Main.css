@@ -2,4 +2,9 @@
   display: grid;
   grid-template-columns: 4fr 1fr;
   margin: 50px 100px;
+  position: relative;
+}
+.card-container {
+  background-color: gray;
+  height: 800px;
 }

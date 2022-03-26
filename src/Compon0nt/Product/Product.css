@@ -4,6 +4,7 @@
 }
 .Product-container {
   border: 1px solid gray;
+  border-radius: 8px;
   width: 285px;
   margin-left: 30px;
   position: relative;
@@ -19,6 +20,12 @@ button {
   bottom: 0;
   right: 0;
   background-color: green;
+  padding: 5px;
+  border-radius: 4px;
+  transition: 0.5s;
+}
+button:hover {
+  background-color: orange;
 }
 .product-infro {
   padding-bottom: 30px;
