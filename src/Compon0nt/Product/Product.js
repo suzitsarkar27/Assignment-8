@@ -2,7 +2,6 @@ import React from 'react';
 import './Product.css';
 
 const Product = (Props) => {
-    // const {name,price,img } = Props.items;
     const {name,img ,price} = Props.items[0];
     return (
         <div className='Product-container col-md-3 g-5'>
@@ -12,7 +11,7 @@ const Product = (Props) => {
             <h3><small>Price:{price}</small></h3>
             </div>
             <div className="product-button">
-            <button>Add To Card</button>
+            <button onClick={(()=>Props.eventHandlar(Props.items[0]))}>Add To Card</button>
             </div>
         </div>
     );
