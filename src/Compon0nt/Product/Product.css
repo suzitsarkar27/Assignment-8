@@ -9,11 +9,11 @@
   margin-left: 30px;
   position: relative;
 }
-.product-button {
+/* .product-button {
   width: 100%;
   background-color: green;
-}
-button {
+} */
+.product-buttons {
   width: 285px;
   position: absolute;
   left: 0;

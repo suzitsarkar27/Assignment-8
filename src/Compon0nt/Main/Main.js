@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import Card from '../Card/Card';
+import Inpro from '../Infro/Inpro';
 import Product from '../Product/Product';
+import Questiom from '../Question/Questiom';
 import'./Main.css';
 
 const Main = () => {
@@ -35,6 +37,8 @@ const Main = () => {
                    <Card cart={cart}></Card>
                  </div>
             </div>
+            <Inpro></Inpro>
+           
         </div>
     );
 };
